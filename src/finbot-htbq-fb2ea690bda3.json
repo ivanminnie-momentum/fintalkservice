@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "finbot-htbq",
+  "private_key_id": "fb2ea690bda34af5f6ce0ec92580a10907154c69",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDNIOjH3QbJyrOm\nKOZzwgE/trVE1D0yIxUkg7NH9R4DR3r1s9LOw1m8PxZrtLPa0KlvX7l5ndOZe02y\nsvV0Mdx+7M2OWQtqwlk4PfagstZFl01Y3oUfwAPwnYywcN+N5SEqjcZHHmG737oQ\nEGE0v/zhLISWaScp0Ao55qnzRsa9aVFwPsuUuH7cs/ayQ/t9ELayv0mIpT1Bk/xz\nSncKgiIWgpkp6x36RRDGIsZpXiXzSDsWdGBW28ZW0mNIU7y08PUjplNwXFaBWqKC\n9Utuy48LgEBV+ZsZRTcWOaDbcuvjBoSsNliZvH4q6AuocjnQK1RK/QWElgc1EV0F\nYQQwPuWVAgMBAAECggEAC/RBRJZ7pQpgTkxfY7sYXglshmqU92VGf+aB7e1Ztqi1\ngHiejiihw9/sU1IIUjXrTd+G/FCnim/+Xu3hcohOWII913AWg334e5fW1dYeOReA\nbS+ok+lZgW35CzZEvOzvsh5pge8CFJQM8I83zv5qQwgYYPiXTO9ADVBFMrV68wJD\nne7Wp38xt01AgljJap2aB6XynUpIwwR0T8M4qu02pfZYELqDCAA+EIOSwxkHU/o8\n/x90Jj2XCN34Qoi9xYUkS7Fpn0kE5U6q3qF1jJ9lGGvGkb3Mj4HyjzK6lx1h0lE7\n9AIkOmJvPl0xr+majmHzPnSVZyI0W9GEeCO0E8n9CQKBgQD+ydpNih6Yo6CN2947\nOsvTJEqH0u8B5gsZfP+5rXqMMpG5dkJ5/jFz8k9iUk3C8HJkvf7JvfEY9EnEY6g6\n6TrIXyLP1sesYBK2jUwOZQqSwW1407zbEpt0lRPrzF3z7P4Z7oy65Dal/i2pnT7v\nyTyYQWrpyCQtyXYe6E0tsCVn3QKBgQDOGptZgUTowOl2Tb1BnUa9O5OOO4IdClCT\nuCu1wzCI/ghMbzveao4rphYIXcsiWDV48zt5BkqxxzXy5Zu3zbHdJf5F50H46tUf\nd9NryQZDEUIeforz2jBdszcdjPbGv55TXXP6I9/9WxDhW6Ha+ljzNV5wR0muydcu\nQDBk+IM1GQKBgQCtOXVnVGl643yMFhkgcdgUBE97yshepRWUzaxbg/uWh+cVjbai\nlFTw/KRGN6jQyYMsxRQN+0qI6cWhdRPygZFKm4vifKciperzHFvCSaYHouSXynVT\nCHKSr6xsm3ShG9aisNITWodhEc/fyp34jvvYlFlo+n7GdnsNhmi6kFDOLQKBgQCd\n0WPZYpHohCeAzkA4KP1M03zGcazNHePbaTAXK1JT4+lo1dgLFJ6ur6u5VlDAiLjR\nV7bXkkjJ3pfh2Y2mbdxfUcNltZIfz3nIcdGzfCfOXT266fzugsl8RknS1+jzATFz\n9mBjTusqLnw7hBXo/r/z447f/MZgD/A0WzRzbJPTqQKBgCSEp5pXbbtS7YlGiS+1\ndpdt0Z6DLiA/gCtytuBDf7BqGE5m9eJjIcx4WA2vhMqIg/73VMlRKee1iSfPpNlE\nrhPiyRVsttSTSi1rkqPd04oW/kwu70bKjS+IpB6ZeWHAAD295gdtM3JDuhQwBZTy\nWm74SP//SfK5kDTQPZFXktty\n-----END PRIVATE KEY-----\n",
+  "client_email": "finbot@finbot-htbq.iam.gserviceaccount.com",
+  "client_id": "101592963433736841564",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/finbot%40finbot-htbq.iam.gserviceaccount.com"
+}
