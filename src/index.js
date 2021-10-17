@@ -5,11 +5,13 @@ const port = 3000
 const cors = require('cors');
 
 app.use(cors({
-    origin: 'http://localhost:4200'
+    //origin: 'http://localhost:4200'
+    origin: '*'
 }));
 
 app.post('/chat', (req, res) => {
 
+    console.log(req);
     finTalkService.chat('hello').then(
         function(value) {
             res.send({message: value});

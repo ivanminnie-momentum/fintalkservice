@@ -9,8 +9,7 @@ const projectId = 'finbot-htbq';
  * @param {string} projectId The project to be used
  */
 async function chat(chatMessage) {
-    // A unique identifier for the given session
-    const sessionId = uuid.v4();
+    const sessionId = uuid.v4(); // per open window not per call
 
     let config = {
         credentials: {
@@ -19,21 +18,17 @@ async function chat(chatMessage) {
         }
     }
 
-    // Create a new session
     const sessionClient = new dialogflow.SessionsClient(config);
     const sessionPath = sessionClient.projectAgentSessionPath(
         projectId,
         sessionId
     );
 
-    // The text query request.
     const request = {
         session: sessionPath,
         queryInput: {
             text: {
-                // The query to send to the dialogflow agent
-                text: 'hello',
-                // The language used by the client (en-US)
+                text: chatMessage,
                 languageCode: 'en-US',
             },
         },
