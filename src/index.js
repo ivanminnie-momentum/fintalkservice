@@ -1,18 +1,18 @@
 const finTalkService = require('./finTalkService');
-const express = require('express')
-const app = express()
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
 const port = 3000
 const cors = require('cors');
 
 app.use(cors({
-    //origin: 'http://localhost:4200'
     origin: '*'
 }));
 
+app.use(bodyParser.text());
 app.post('/chat', (req, res) => {
 
-    console.log(req);
-    finTalkService.chat('hello').then(
+    finTalkService.chat(req.body).then(
         function(value) {
             res.send({message: value});
         },
