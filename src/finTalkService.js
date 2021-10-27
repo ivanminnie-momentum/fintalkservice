@@ -8,8 +8,8 @@ const projectId = 'finbot-htbq';
  * Send a query to the dialogflow agent, and return the query result.
  * @param {string} projectId The project to be used
  */
-async function chat(chatMessage) {
-    const sessionId = uuid.v4(); // per open window not per call
+async function chat(chatMessage, sessionId) {
+    //const sessionId = uuid.v4(); // per open window not per call
 
     let config = {
         credentials: {

@@ -9,10 +9,14 @@ app.use(cors({
     origin: '*'
 }));
 
-app.use(bodyParser.text());
+app.use(bodyParser.json());
 app.post('/chat', (req, res) => {
 
-    finTalkService.chat(req.body).then(
+    console.log(req.body);
+    console.log(req.body.message);
+    console.log(req.body.sessionId);
+
+    finTalkService.chat(req.body.message, req.body.sessionId).then(
         function(value) {
             res.send({message: value});
         },
